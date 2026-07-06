@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instruktorzy — Akademia Karate Otwock</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Big+Shoulders+Display:wght@600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="mobile-bar">
+    <div class="brand-name">Akademia Karate Otwock</div>
+    <div class="burger" id="burger" aria-label="Otwórz menu"><span></span><span></span><span></span></div>
+  </div>
+
+  <nav class="sidebar" id="sidebar">
+    <div class="brand">
+      <svg class="brand-mark" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="46" width="80" height="8" fill="#ffffff"/>
+        <path d="M46 50 C 40 40, 30 40, 28 50 C 30 60, 40 60, 46 50 Z" fill="#ffffff"/>
+        <path d="M54 50 C 60 40, 70 40, 72 50 C 70 60, 60 60, 54 50 Z" fill="#ffffff"/>
+        <circle cx="50" cy="50" r="5" fill="#111111" stroke="#ffffff" stroke-width="2"/>
+      </svg>
+      <div>
+        <div class="brand-name">Akademia<br>Karate Otwock</div>
+        <div class="brand-sub">Ponad 35 lat tradycji</div>
+      </div>
+    </div>
+
+    <ul class="nav" id="nav">
+      <li><a class="nav-item" href="index.html">
+        <svg class="knot" viewBox="0 0 10 10"><rect width="10" height="10" fill="#fff"/></svg>
+        Strona główna
+      </a></li>
+      <li><a class="nav-item" href="karate.html">
+        <svg class="knot" viewBox="0 0 10 10"><rect width="10" height="10" fill="#fff"/></svg>
+        Karate
+      </a></li>
+      <li><a class="nav-item" href="mma.html">
+        <svg class="knot" viewBox="0 0 10 10"><rect width="10" height="10" fill="#fff"/></svg>
+        MMA
+      </a></li>
+      <li><a class="nav-item active" href="instruktorzy.html">
+        <svg class="knot" viewBox="0 0 10 10"><rect width="10" height="10" fill="#fff"/></svg>
+        Instruktorzy
+      </a></li>
+      <li><a class="nav-item" href="treningi.html">
+        <svg class="knot" viewBox="0 0 10 10"><rect width="10" height="10" fill="#fff"/></svg>
+        Treningi personalne
+      </a></li>
+    </ul>
+
+    <div class="sidebar-footer">
+      <strong>Akademia Karate Otwock</strong><br>
+      ul. Tysiąclecia 47<br>
+      05-400 Otwock
+    </div>
+  </nav>
+
+  <main class="main">
+
+    <section class="hero-top">
+      <div class="eyebrow">Kadra</div>
+      <h1>Instruktorzy</h1>
+      <p class="lede">Akademią kieruje trener z ponad trzydziestopięcioletnim doświadczeniem i realnym dorobkiem mistrzowskim swoich zawodników.</p>
+    </section>
+
+    <section>
+      <div class="instructor-card">
+        <div class="col-media">
+          <div class="placeholder-img" style="aspect-ratio:3/4;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+            <span>Zdjęcie instruktora</span>
+          </div>
+        </div>
+        <div class="col-text">
+          <h2 style="margin-bottom:6px;">Mirosław Plata</h2>
+          <div class="eyebrow" style="margin-bottom:20px;">Założyciel i główny instruktor</div>
+
+          <div class="dan-row">
+            <div class="dan-block">
+              <div class="dan-title">Karate KWF</div>
+              <div class="dan-value">4 dan</div>
+              <div class="rank-bar">
+                <span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span>
+                <span></span><span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="dan-block">
+              <div class="dan-title">Jujitsu</div>
+              <div class="dan-value">6 dan</div>
+              <div class="rank-bar">
+                <span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span>
+                <span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+
+          <p>Mirosław Plata prowadzi Akademię Karate Otwock od ponad 35 lat. Pod jego kierunkiem klub wyszkolił dotychczas 11 aktualnych mistrzów świata — efekt wieloletniej, systematycznej pracy z zawodnikami w każdej grupie wiekowej, od pierwszych treningów po najwyższy poziom sportowy.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="eyebrow">Zespół</div>
+      <h2>[Miejsce na kolejnych instruktorów]</h2>
+      <p>Gdy zdecydujesz się dodać innych trenerów prowadzących zajęcia w Akademii, każdy z nich może otrzymać taką samą kartę jak powyżej — ze zdjęciem, stopniem i krótkim opisem.</p>
+    </section>
+
+  </main>
+
+<script src="script.js"></script>
+</body>
+</html>
